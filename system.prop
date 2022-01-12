@@ -33,14 +33,3 @@ persist.sys.binary_xml=false
 #persist.sys.usb.config=mtp,adb
 #ro.debuggable=1
 #ro.adb.secure=0
-
-# Priv-App Permissions
-ro.control_privapp_permissions=log
-
-# Elixir Stuffs
-org.elixir.device.name=Samsung Galaxy S9
-ro.elixir.device.name=Samsung Galaxy S9
-ro.elixir.device=starlte
-ro.elixir.maintainer=Cyder  
-ro.elixir.maintainer.username=Cyderxxv
-ro.elixir.group.url=t.me/Elixir_Discussion
