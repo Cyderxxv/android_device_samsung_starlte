@@ -23,19 +23,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/starlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Komodo stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
-Elixir_MAINTAINER := Cyder | Lumine
 IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_INCLUDE_LIVE_WALLPAPERS= true
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := starlte
-PRODUCT_NAME := aosp_starlte
+PRODUCT_NAME := komodo_starlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G960F
 PRODUCT_MANUFACTURER := samsung
