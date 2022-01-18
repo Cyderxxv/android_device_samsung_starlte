@@ -28,11 +28,11 @@ ro.support_one_handed_mode=true
 persist.sys.binary_xml=false
 
 # ADB on boot
-#persist.service.adb.enable=1
-#persist.service.debuggable=1
-#persist.sys.usb.config=mtp,adb
-#ro.debuggable=1
-#ro.adb.secure=0
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+ro.debuggable=1
+ro.adb.secure=0
 
 # Priv-App Permissions
 ro.control_privapp_permissions=log
