@@ -26,6 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
+SAKURA_MAINTAINER := Cyder
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := starlte
